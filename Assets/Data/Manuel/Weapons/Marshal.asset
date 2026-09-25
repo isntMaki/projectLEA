@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67b548aee47fde7428f3b18ef89b69d2, type: 3}
+  m_Name: Marshal
+  m_EditorClassIdentifier: 
+  displayName: Marshal
+  category: 1
+  description: Light sniper. One body shot kills an unshielded player, five shots
+    in the mag, and you can fire it while jumping.
+  cost: 950
+  ownedByDefault: 0
+  damage: 101
+  delay: 0.6667
+  windup: 0
+  range: 50
+  swingArc: 70
+  projectileSpeed: 0
+  magazineSize: 5
+  reserveAmmo: 10
+  reloadTime: 2.5
+  fireMode: 0
+  burstCount: 3
+  burstInterval: 0.2
+  pelletsPerShot: 1
+  pelletSpread: 0
+  headshotMultiplier: 2
+  legshotMultiplier: 0.85
+  falloffStart: 0
+  falloffMid: 30
+  falloffEnd: 50
+  falloffMidRatio: 0.9
+  falloffMinRatio: 0.8
+  altFire: 0
+  altBurstCount: 3
+  altBurstInterval: 0.2
+  altDamage: 0
+  altWindup: 0.3
+  altSpreadScale: 0.4
+  viewmodelPrefab: {fileID: 8532548897427775860, guid: 9fa964df26f081c4483b752af032e6b7, type: 3}
+  viewmodelOffset: {x: 0.22, y: -0.22, z: 0.46}
+  drawTime: 0.8
+  fuse: 2
+  splashRadius: 3.5

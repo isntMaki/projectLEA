@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67b548aee47fde7428f3b18ef89b69d2, type: 3}
+  m_Name: Judge
+  m_EditorClassIdentifier: 
+  displayName: Judge
+  category: 1
+  description: Full-auto shotgun. Hold the trigger and walk in; nothing else in the
+    price range survives a corner held by one.
+  cost: 1850
+  ownedByDefault: 0
+  damage: 17
+  delay: 0.2857
+  windup: 0
+  range: 50
+  swingArc: 70
+  projectileSpeed: 0
+  magazineSize: 5
+  reserveAmmo: 20
+  reloadTime: 2.2
+  fireMode: 1
+  burstCount: 3
+  burstInterval: 0.2
+  pelletsPerShot: 15
+  pelletSpread: 2.5
+  headshotMultiplier: 2
+  legshotMultiplier: 0.85
+  falloffStart: 8
+  falloffMid: 12
+  falloffEnd: 20
+  falloffMidRatio: 0.71
+  falloffMinRatio: 0.35
+  altFire: 0
+  altBurstCount: 3
+  altBurstInterval: 0.2
+  altDamage: 0
+  altWindup: 0.3
+  altSpreadScale: 0.4
+  viewmodelPrefab: {fileID: 4940627421311885852, guid: ab8490222f4b4184898ffed2b9e0ab3a, type: 3}
+  viewmodelOffset: {x: 0.19, y: -0.18, z: 0.35}
+  drawTime: 0.8
+  fuse: 2
+  splashRadius: 3.5

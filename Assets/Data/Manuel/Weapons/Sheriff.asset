@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67b548aee47fde7428f3b18ef89b69d2, type: 3}
+  m_Name: Sheriff
+  m_EditorClassIdentifier: 
+  displayName: Sheriff
+  category: 1
+  description: Six rounds, one-tap headshots, no forgiveness. The highest-damage
+    sidearm in the game and the hardest to hit with.
+  cost: 800
+  ownedByDefault: 0
+  damage: 55
+  delay: 0.25
+  windup: 0
+  range: 50
+  swingArc: 70
+  projectileSpeed: 0
+  magazineSize: 6
+  reserveAmmo: 24
+  reloadTime: 1.5
+  fireMode: 0
+  burstCount: 3
+  burstInterval: 0.2
+  pelletsPerShot: 1
+  pelletSpread: 0
+  headshotMultiplier: 2.9
+  legshotMultiplier: 0.85
+  falloffStart: 15
+  falloffMid: 30
+  falloffEnd: 50
+  falloffMidRatio: 0.91
+  falloffMinRatio: 0.75
+  altFire: 0
+  altBurstCount: 3
+  altBurstInterval: 0.2
+  altDamage: 0
+  altWindup: 0.3
+  altSpreadScale: 0.4
+  viewmodelPrefab: {fileID: 8972805121062254181, guid: 63540ce608b81ca49bcbcc5d70a8b37f, type: 3}
+  viewmodelOffset: {x: 0.16, y: -0.15, z: 0.32}
+  drawTime: 0.8
+  fuse: 2
+  splashRadius: 3.5

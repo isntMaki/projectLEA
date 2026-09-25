@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3515046cad7f28e4187fc9a43cea57ae, type: 2}
+  m_Name: Volley
+  m_EditorClassIdentifier: 
+  displayName: "Volley"
+  role: 1
+  description: "A salvo initiator with a stealth drone and a guided rocket for every answer."
+  passiveTrait: "Guided: projectile damage is 15% higher"
+  negativeTrait: "Predictable: abilities telegraph loudly"
+  allowedWeapons: []
+  abilities:
+  - displayName: "Stealth Drone"
+    description: "Marks the enemy through walls for a few seconds."
+    cooldown: 12
+    duration: 4
+    power: 0
+    isUltimate: 0
+    archetype: 10
+    zoneKind: 0
+    range: 24
+    radius: 0
+    activationKey: 17
+  - displayName: "Guided Salvo"
+    description: "A guided munition along your aim line."
+    cooldown: 12
+    duration: 0
+    power: 50
+    isUltimate: 0
+    archetype: 9
+    zoneKind: 0
+    range: 26
+    radius: 3
+    activationKey: 31
+  - displayName: "Special Delivery"
+    description: "A concussive field that slows anyone inside."
+    cooldown: 12
+    duration: 3
+    power: 0.7
+    isUltimate: 0
+    archetype: 11
+    zoneKind: 4
+    range: 20
+    radius: 3.5
+    activationKey: 19
+  - displayName: "Armageddon"
+    description: "Everything you have, at the point you aim."
+    cooldown: 50
+    duration: 0
+    power: 85
+    isUltimate: 1
+    archetype: 9
+    zoneKind: 0
+    range: 32
+    radius: 4.5
+    activationKey: 38
+  abilityPrefab: {fileID: 0}
+  maxHealth: 100
+  moveSpeedMultiplier: 1
+  maxStamina: 100

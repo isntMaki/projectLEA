@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3515046cad7f28e4187fc9a43cea57ae, type: 2}
+  m_Name: Tracker
+  m_EditorClassIdentifier: 
+  displayName: "Tracker"
+  role: 1
+  description: "A nature initiator with a hawk, a hound and a healer's hand. Finds you, blinds you, keeps her team alive."
+  passiveTrait: "Trailblazer: reveals last longer"
+  negativeTrait: "Soft: shields absorb 20% less"
+  allowedWeapons: []
+  abilities:
+  - displayName: "Guiding Light"
+    description: "A blinding light that follows your aim."
+    cooldown: 10
+    duration: 2
+    power: 0
+    isUltimate: 0
+    archetype: 11
+    zoneKind: 7
+    range: 22
+    radius: 6
+    activationKey: 17
+  - displayName: "Trailblazer"
+    description: "Sends a beast out to mark the enemy."
+    cooldown: 12
+    duration: 3
+    power: 0
+    isUltimate: 0
+    archetype: 10
+    zoneKind: 0
+    range: 20
+    radius: 0
+    activationKey: 31
+  - displayName: "Regrowth"
+    description: "Restores health over a short window."
+    cooldown: 12
+    duration: 3
+    power: 45
+    isUltimate: 0
+    archetype: 4
+    zoneKind: 0
+    range: 0
+    radius: 0
+    activationKey: 19
+  - displayName: "Seekers"
+    description: "Finds the enemy wherever they are hiding."
+    cooldown: 50
+    duration: 5
+    power: 0
+    isUltimate: 1
+    archetype: 10
+    zoneKind: 0
+    range: 0
+    radius: 0
+    activationKey: 38
+  abilityPrefab: {fileID: 0}
+  maxHealth: 100
+  moveSpeedMultiplier: 1
+  maxStamina: 100

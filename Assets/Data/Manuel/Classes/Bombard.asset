@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3515046cad7f28e4187fc9a43cea57ae, type: 2}
+  m_Name: Bombard
+  m_EditorClassIdentifier: 
+  displayName: "Bombard"
+  role: 0
+  description: "A duelist with too much ordnance. Booms a bot, blasts herself in, and finishes with a rocket."
+  passiveTrait: "Munitions: explosive damage is 15% higher"
+  negativeTrait: "Loud: every ability announces where you are"
+  allowedWeapons: []
+  abilities:
+  - displayName: "Boom Bot"
+    description: "A proximity explosive that chases the ground you point it at."
+    cooldown: 12
+    duration: 0
+    power: 60
+    isUltimate: 0
+    archetype: 8
+    zoneKind: 0
+    range: 20
+    radius: 3.5
+    activationKey: 17
+  - displayName: "Blast Pack"
+    description: "A burst of speed from the concussive charge at your feet."
+    cooldown: 8
+    duration: 0
+    power: 1.3
+    isUltimate: 0
+    archetype: 1
+    zoneKind: 0
+    range: 0
+    radius: 0
+    activationKey: 31
+  - displayName: "Paint Shells"
+    description: "Cluster explosives along your aim line."
+    cooldown: 10
+    duration: 0
+    power: 55
+    isUltimate: 0
+    archetype: 9
+    zoneKind: 0
+    range: 25
+    radius: 3
+    activationKey: 19
+  - displayName: "Showstopper"
+    description: "One rocket. Make it count."
+    cooldown: 45
+    duration: 0
+    power: 90
+    isUltimate: 1
+    archetype: 9
+    zoneKind: 0
+    range: 30
+    radius: 4.5
+    activationKey: 38
+  abilityPrefab: {fileID: 0}
+  maxHealth: 100
+  moveSpeedMultiplier: 1
+  maxStamina: 100

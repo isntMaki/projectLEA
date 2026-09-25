@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3515046cad7f28e4187fc9a43cea57ae, type: 2}
+  m_Name: Siren
+  m_EditorClassIdentifier: 
+  displayName: "Siren"
+  role: 2
+  description: "A controller whose sound is a weapon. Slows, silences and shreds with rhythm."
+  passiveTrait: "Harmonics: suppression zones are larger"
+  negativeTrait: "Overwhelmed: lower max shield"
+  allowedWeapons: []
+  abilities:
+  - displayName: "M-Pulse"
+    description: "A dampening field that slows anyone inside."
+    cooldown: 12
+    duration: 4
+    power: 0.6
+    isUltimate: 0
+    archetype: 11
+    zoneKind: 4
+    range: 20
+    radius: 4
+    activationKey: 17
+  - displayName: "Harmonize"
+    description: "Deploys a smoke sphere that blocks line of sight."
+    cooldown: 12
+    duration: 8
+    power: 0
+    isUltimate: 0
+    archetype: 11
+    zoneKind: 1
+    range: 22
+    radius: 4.5
+    activationKey: 31
+  - displayName: "Waveform"
+    description: "A resonant field that damages anyone inside."
+    cooldown: 12
+    duration: 5
+    power: 6
+    isUltimate: 0
+    archetype: 11
+    zoneKind: 3
+    range: 20
+    radius: 3.5
+    activationKey: 19
+  - displayName: "Bassquake"
+    description: "A shockwave that drags enemies to its centre."
+    cooldown: 50
+    duration: 4
+    power: 10
+    isUltimate: 1
+    archetype: 11
+    zoneKind: 5
+    range: 22
+    radius: 5
+    activationKey: 38
+  abilityPrefab: {fileID: 0}
+  maxHealth: 100
+  moveSpeedMultiplier: 1
+  maxStamina: 100

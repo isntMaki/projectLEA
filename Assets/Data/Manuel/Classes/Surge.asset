@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3515046cad7f28e4187fc9a43cea57ae, type: 2}
+  m_Name: Surge
+  m_EditorClassIdentifier: 
+  displayName: "Surge"
+  role: 0
+  description: "A duelist built for speed. Outpaces every angle and punishes anyone caught in her lane."
+  passiveTrait: "Fast Lane: movement buffs are 20% stronger"
+  negativeTrait: "Fragile: shields absorb 20% less"
+  allowedWeapons: []
+  abilities:
+  - displayName: "Fast Lane"
+    description: "Speed for a few seconds."
+    cooldown: 10
+    duration: 3
+    power: 0.4
+    isUltimate: 0
+    archetype: 6
+    zoneKind: 0
+    range: 0
+    radius: 0
+    activationKey: 17
+  - displayName: "Relay Bolt"
+    description: "A concussive field that slows anyone inside."
+    cooldown: 9
+    duration: 4
+    power: 0.6
+    isUltimate: 0
+    archetype: 11
+    zoneKind: 4
+    range: 20
+    radius: 3.5
+    activationKey: 31
+  - displayName: "High Gear"
+    description: "A shorter, sharper burst of speed."
+    cooldown: 12
+    duration: 5
+    power: 0.25
+    isUltimate: 0
+    archetype: 6
+    zoneKind: 0
+    range: 0
+    radius: 0
+    activationKey: 19
+  - displayName: "Overdrive"
+    description: "Maximum speed and fire rate."
+    cooldown: 45
+    duration: 6
+    power: 0.5
+    isUltimate: 1
+    archetype: 6
+    zoneKind: 0
+    range: 0
+    radius: 0
+    activationKey: 38
+  abilityPrefab: {fileID: 0}
+  maxHealth: 100
+  moveSpeedMultiplier: 1
+  maxStamina: 100

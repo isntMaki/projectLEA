@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3515046cad7f28e4187fc9a43cea57ae, type: 2}
+  m_Name: Tremor
+  m_EditorClassIdentifier: 
+  displayName: "Tremor"
+  role: 1
+  description: "A disruption initiator who turns the ground against you. Fault lines, aftershocks, and a rolling thunder."
+  passiveTrait: "Seismic: slows are 20% stronger"
+  negativeTrait: "Unstable: lower max shield"
+  allowedWeapons: []
+  abilities:
+  - displayName: "Aftershock"
+    description: "A field that damages anyone inside."
+    cooldown: 12
+    duration: 4
+    power: 9
+    isUltimate: 0
+    archetype: 11
+    zoneKind: 3
+    range: 18
+    radius: 3
+    activationKey: 17
+  - displayName: "Fault Line"
+    description: "A concussive rupture that slows anyone inside."
+    cooldown: 12
+    duration: 3
+    power: 0.7
+    isUltimate: 0
+    archetype: 11
+    zoneKind: 4
+    range: 20
+    radius: 4
+    activationKey: 31
+  - displayName: "Flashpoint"
+    description: "A blind that lands where you aim."
+    cooldown: 10
+    duration: 2
+    power: 0
+    isUltimate: 0
+    archetype: 11
+    zoneKind: 7
+    range: 16
+    radius: 5
+    activationKey: 19
+  - displayName: "Rolling Thunder"
+    description: "A wave of concussions across the whole site."
+    cooldown: 50
+    duration: 5
+    power: 0.5
+    isUltimate: 1
+    archetype: 11
+    zoneKind: 4
+    range: 22
+    radius: 5
+    activationKey: 38
+  abilityPrefab: {fileID: 0}
+  maxHealth: 100
+  moveSpeedMultiplier: 1
+  maxStamina: 100

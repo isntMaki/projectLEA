@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3515046cad7f28e4187fc9a43cea57ae, type: 2}
+  m_Name: Toxin
+  m_EditorClassIdentifier: 
+  displayName: "Toxin"
+  role: 2
+  description: "A controller of poison. Denies ground with a burning screen and a pit that outlasts a firefight."
+  passiveTrait: "Venom: damage-over-time is 20% stronger"
+  negativeTrait: "Corrosive: your own zones hurt you too"
+  allowedWeapons: []
+  abilities:
+  - displayName: "Poison Cloud"
+    description: "A toxic field that damages anyone inside."
+    cooldown: 12
+    duration: 8
+    power: 5
+    isUltimate: 0
+    archetype: 11
+    zoneKind: 3
+    range: 20
+    radius: 3.5
+    activationKey: 17
+  - displayName: "Toxic Screen"
+    description: "A solid barrier of corrosive vapour."
+    cooldown: 12
+    duration: 8
+    power: 0
+    isUltimate: 0
+    archetype: 11
+    zoneKind: 2
+    range: 15
+    radius: 0
+    activationKey: 31
+  - displayName: "Snake Bite"
+    description: "A vial of venom along your aim line."
+    cooldown: 10
+    duration: 0
+    power: 40
+    isUltimate: 0
+    archetype: 9
+    zoneKind: 0
+    range: 20
+    radius: 2.5
+    activationKey: 19
+  - displayName: "Viper's Pit"
+    description: "A vast toxic field. You are immune; they are not."
+    cooldown: 50
+    duration: 10
+    power: 8
+    isUltimate: 1
+    archetype: 11
+    zoneKind: 3
+    range: 18
+    radius: 5
+    activationKey: 38
+  abilityPrefab: {fileID: 0}
+  maxHealth: 100
+  moveSpeedMultiplier: 1
+  maxStamina: 100

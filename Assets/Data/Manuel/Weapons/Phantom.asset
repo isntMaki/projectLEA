@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67b548aee47fde7428f3b18ef89b69d2, type: 3}
+  m_Name: Phantom
+  m_EditorClassIdentifier: 
+  displayName: Phantom
+  category: 1
+  description: Silenced full rifle, thirty rounds, the easiest spray in the game.
+    Past thirty metres the Vandal out-damages it - inside that, it does not.
+  cost: 2900
+  ownedByDefault: 0
+  damage: 39
+  delay: 0.0909
+  windup: 0
+  range: 50
+  swingArc: 70
+  projectileSpeed: 0
+  magazineSize: 30
+  reserveAmmo: 90
+  reloadTime: 2.5
+  fireMode: 1
+  burstCount: 3
+  burstInterval: 0.2
+  pelletsPerShot: 1
+  pelletSpread: 0
+  headshotMultiplier: 4
+  legshotMultiplier: 0.85
+  falloffStart: 15
+  falloffMid: 30
+  falloffEnd: 50
+  falloffMidRatio: 0.9
+  falloffMinRatio: 0.79
+  altFire: 0
+  altBurstCount: 3
+  altBurstInterval: 0.2
+  altDamage: 0
+  altWindup: 0.3
+  altSpreadScale: 0.4
+  viewmodelPrefab: {fileID: 7890452219782820155, guid: b85ded8647e9cb541bb28e6b546a2acd, type: 3}
+  viewmodelOffset: {x: 0.2, y: -0.2, z: 0.4}
+  drawTime: 0.8
+  fuse: 2
+  splashRadius: 3.5

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6255e77d1dd41f3908cc0312453196b, type: 3}
+  m_Name: Standard
+  m_EditorClassIdentifier:
+  roundsToWin: 13
+  classSelectSeconds: 45
+  buySeconds: 30
+  roundSeconds: 100
+  roundOverSeconds: 5
+  startingMoney: 800
+  killReward: 200
+  roundWinReward: 3000
+  roundLossReward: 1900
+  lossStreakBonus: 500
+  maxLossStreakBonus: 1000
+  creditCap: 9000
+  oneHitKills: 0
+  infiniteMoney: 0
+  infiniteAbilities: 0
+  lowGravity: 0
+  superSpeed: 0
+  godMode: 0

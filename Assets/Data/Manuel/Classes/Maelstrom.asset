@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3515046cad7f28e4187fc9a43cea57ae, type: 2}
+  m_Name: Maelstrom
+  m_EditorClassIdentifier: 
+  displayName: "Maelstrom"
+  role: 2
+  description: "A controller of tide and tide-wall. Shields himself, parts the sea, and drags the fight to the deep."
+  passiveTrait: "Cove: shields are 25% stronger"
+  negativeTrait: "Salt: heals are 15% weaker"
+  allowedWeapons: []
+  abilities:
+  - displayName: "Cove"
+    description: "A shield that absorbs damage for a while."
+    cooldown: 12
+    duration: 6
+    power: 50
+    isUltimate: 0
+    archetype: 5
+    zoneKind: 0
+    range: 0
+    radius: 0
+    activationKey: 17
+  - displayName: "High Tide"
+    description: "A solid wall of water that blocks movement and sight."
+    cooldown: 12
+    duration: 8
+    power: 0
+    isUltimate: 0
+    archetype: 11
+    zoneKind: 2
+    range: 16
+    radius: 0
+    activationKey: 31
+  - displayName: "Cascade"
+    description: "A concussive wave that slows anyone inside."
+    cooldown: 12
+    duration: 4
+    power: 0.65
+    isUltimate: 0
+    archetype: 11
+    zoneKind: 4
+    range: 20
+    radius: 4
+    activationKey: 19
+  - displayName: "Reckoning"
+    description: "A slowing deluge across the whole site."
+    cooldown: 50
+    duration: 6
+    power: 0.5
+    isUltimate: 1
+    archetype: 11
+    zoneKind: 4
+    range: 22
+    radius: 5
+    activationKey: 38
+  abilityPrefab: {fileID: 0}
+  maxHealth: 100
+  moveSpeedMultiplier: 1
+  maxStamina: 100

@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67b548aee47fde7428f3b18ef89b69d2, type: 3}
+  m_Name: Knife
+  m_EditorClassIdentifier:
+  displayName: Knife
+  category: 0
+  description: Standard issue tactical knife. Left-swing for 50, right-swing for 75 - the only weapon that never leaves your belt.
+  cost: 0
+  ownedByDefault: 1
+  damage: 50
+  delay: 1.1
+  windup: 0.18
+  range: 2.5
+  swingArc: 90
+  projectileSpeed: 0
+  magazineSize: 0
+  reserveAmmo: 0
+  reloadTime: 0
+  fireMode: 0
+  burstCount: 3
+  burstInterval: 0.2
+  pelletsPerShot: 1
+  pelletSpread: 0
+  headshotMultiplier: 1
+  legshotMultiplier: 1
+  falloffStart: 0
+  falloffMid: 30
+  falloffEnd: 50
+  falloffMidRatio: 0.9
+  falloffMinRatio: 0.8
+  altFire: 3
+  altBurstCount: 3
+  altBurstInterval: 0.2
+  altDamage: 75
+  altWindup: 0.35
+  altSpreadScale: 0.4
+  drawTime: 0.8
+  fuse: 2
+  splashRadius: 3.5

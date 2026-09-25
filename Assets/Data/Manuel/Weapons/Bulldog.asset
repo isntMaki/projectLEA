@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67b548aee47fde7428f3b18ef89b69d2, type: 3}
+  m_Name: Bulldog
+  m_EditorClassIdentifier: 
+  displayName: Bulldog
+  category: 1
+  description: The budget rifle. Twenty-four rounds of full auto with a three-shot
+    body kill - the reason half buys still work.
+  cost: 2050
+  ownedByDefault: 0
+  damage: 35
+  delay: 0.1
+  windup: 0
+  range: 50
+  swingArc: 70
+  projectileSpeed: 0
+  magazineSize: 24
+  reserveAmmo: 72
+  reloadTime: 2.5
+  fireMode: 1
+  burstCount: 3
+  burstInterval: 0.2
+  pelletsPerShot: 1
+  pelletSpread: 0
+  headshotMultiplier: 3.3
+  legshotMultiplier: 0.85
+  falloffStart: 15
+  falloffMid: 30
+  falloffEnd: 50
+  falloffMidRatio: 0.92
+  falloffMinRatio: 0.82
+  altFire: 0
+  altBurstCount: 3
+  altBurstInterval: 0.2
+  altDamage: 0
+  altWindup: 0.3
+  altSpreadScale: 0.4
+  viewmodelPrefab: {fileID: 5637084339087279996, guid: 02a11f58e5f3a154ab169302365ac5dc, type: 3}
+  viewmodelOffset: {x: 0.2, y: -0.2, z: 0.36}
+  drawTime: 0.8
+  fuse: 2
+  splashRadius: 3.5

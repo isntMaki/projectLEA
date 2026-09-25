@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3515046cad7f28e4187fc9a43cea57ae, type: 2}
+  m_Name: Cordon
+  m_EditorClassIdentifier: 
+  displayName: "Cordon"
+  role: 3
+  description: "A sentinel of denial. Chokes the angle, cuts the rotation, intercepts the push."
+  passiveTrait: "Interceptor: mines recharge faster"
+  negativeTrait: "Bureaucratic: slower ability cooldowns"
+  allowedWeapons: []
+  abilities:
+  - displayName: "Chokehold"
+    description: "A concussive field that slows anyone inside."
+    cooldown: 12
+    duration: 4
+    power: 0.6
+    isUltimate: 0
+    archetype: 11
+    zoneKind: 4
+    range: 20
+    radius: 4
+    activationKey: 17
+  - displayName: "Crosscut"
+    description: "Step through a seam to the point you aim at."
+    cooldown: 12
+    duration: 0
+    power: 0
+    isUltimate: 0
+    archetype: 3
+    zoneKind: 0
+    range: 7
+    radius: 0
+    activationKey: 31
+  - displayName: "Interceptor"
+    description: "A proximity explosive at the point you aim."
+    cooldown: 15
+    duration: 0
+    power: 45
+    isUltimate: 0
+    archetype: 8
+    zoneKind: 0
+    range: 18
+    radius: 3
+    activationKey: 19
+  - displayName: "Evolution"
+    description: "Adapt: speed, fire rate and focus."
+    cooldown: 50
+    duration: 8
+    power: 0.5
+    isUltimate: 1
+    archetype: 6
+    zoneKind: 0
+    range: 0
+    radius: 0
+    activationKey: 38
+  abilityPrefab: {fileID: 0}
+  maxHealth: 100
+  moveSpeedMultiplier: 1
+  maxStamina: 100

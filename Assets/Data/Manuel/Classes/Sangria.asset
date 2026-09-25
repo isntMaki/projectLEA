@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3515046cad7f28e4187fc9a43cea57ae, type: 2}
+  m_Name: Sangria
+  m_EditorClassIdentifier: 
+  displayName: "Sangria"
+  role: 0
+  description: "A self-sufficient duelist who sustains on aggression. Every kill feeds her escape and her health."
+  passiveTrait: "Devour: healing is 25% stronger"
+  negativeTrait: "Selfish: no utility for a teammate"
+  allowedWeapons: []
+  abilities:
+  - displayName: "Leer"
+    description: "A blind that lands where you aim."
+    cooldown: 10
+    duration: 2
+    power: 0
+    isUltimate: 0
+    archetype: 11
+    zoneKind: 7
+    range: 18
+    radius: 5
+    activationKey: 17
+  - displayName: "Dismiss"
+    description: "Vanish and reappear a short distance away."
+    cooldown: 8
+    duration: 0
+    power: 0
+    isUltimate: 0
+    archetype: 3
+    zoneKind: 0
+    range: 6
+    radius: 0
+    activationKey: 31
+  - displayName: "Devour"
+    description: "Restores health over a short window."
+    cooldown: 6
+    duration: 2
+    power: 50
+    isUltimate: 0
+    archetype: 4
+    zoneKind: 0
+    range: 0
+    radius: 0
+    activationKey: 19
+  - displayName: "Empress"
+    description: "Fire rate, speed and sustain for the duration."
+    cooldown: 50
+    duration: 8
+    power: 0.35
+    isUltimate: 1
+    archetype: 6
+    zoneKind: 0
+    range: 0
+    radius: 0
+    activationKey: 38
+  abilityPrefab: {fileID: 0}
+  maxHealth: 100
+  moveSpeedMultiplier: 1
+  maxStamina: 100

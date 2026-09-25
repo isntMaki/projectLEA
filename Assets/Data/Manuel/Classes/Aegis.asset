@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3515046cad7f28e4187fc9a43cea57ae, type: 2}
+  m_Name: Aegis
+  m_EditorClassIdentifier: 
+  displayName: "Aegis"
+  role: 0
+  description: "A duelist who duels on his own terms, walling off sightlines and pressing the advantage."
+  passiveTrait: "Contingency: shields last 25% longer"
+  negativeTrait: "Methodical: slower ability cooldowns"
+  allowedWeapons: []
+  abilities:
+  - displayName: "Contingency"
+    description: "A solid barrier that blocks movement and sight."
+    cooldown: 10
+    duration: 5
+    power: 0
+    isUltimate: 0
+    archetype: 11
+    zoneKind: 2
+    range: 12
+    radius: 0
+    activationKey: 17
+  - displayName: "Undercut"
+    description: "A field that slows anyone caught inside."
+    cooldown: 12
+    duration: 4
+    power: 0.7
+    isUltimate: 0
+    archetype: 11
+    zoneKind: 4
+    range: 22
+    radius: 3
+    activationKey: 31
+  - displayName: "Double Tap"
+    description: "Speed and fire rate for the duration."
+    cooldown: 10
+    duration: 6
+    power: 0.25
+    isUltimate: 0
+    archetype: 6
+    zoneKind: 0
+    range: 0
+    radius: 0
+    activationKey: 19
+  - displayName: "Kill Contract"
+    description: "A marked duelist's buff: speed, fire rate and focus."
+    cooldown: 50
+    duration: 8
+    power: 0.45
+    isUltimate: 1
+    archetype: 6
+    zoneKind: 0
+    range: 0
+    radius: 0
+    activationKey: 38
+  abilityPrefab: {fileID: 0}
+  maxHealth: 100
+  moveSpeedMultiplier: 1
+  maxStamina: 100

@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3515046cad7f28e4187fc9a43cea57ae, type: 2}
+  m_Name: Flock
+  m_EditorClassIdentifier: 
+  displayName: "Flock"
+  role: 1
+  description: "A creature-initiator with reusable pets. Wingman blinds, Mosh burns, and Thrash clears."
+  passiveTrait: "Pack: your creatures recharge faster"
+  negativeTrait: "Soft: shields absorb 20% less"
+  allowedWeapons: []
+  abilities:
+  - displayName: "Wingman"
+    description: "An explosive concierge along your aim line."
+    cooldown: 12
+    duration: 0
+    power: 45
+    isUltimate: 0
+    archetype: 9
+    zoneKind: 0
+    range: 22
+    radius: 3
+    activationKey: 17
+  - displayName: "Dizzy"
+    description: "A blinding pet that lands where you aim."
+    cooldown: 10
+    duration: 2
+    power: 0
+    isUltimate: 0
+    archetype: 11
+    zoneKind: 7
+    range: 18
+    radius: 5
+    activationKey: 31
+  - displayName: "Mosh Pit"
+    description: "A field that damages anyone inside."
+    cooldown: 12
+    duration: 4
+    power: 8
+    isUltimate: 0
+    archetype: 11
+    zoneKind: 3
+    range: 18
+    radius: 3.5
+    activationKey: 19
+  - displayName: "Thrash"
+    description: "A concussive beast along your aim line."
+    cooldown: 45
+    duration: 0
+    power: 75
+    isUltimate: 1
+    archetype: 9
+    zoneKind: 0
+    range: 28
+    radius: 4
+    activationKey: 38
+  abilityPrefab: {fileID: 0}
+  maxHealth: 100
+  moveSpeedMultiplier: 1
+  maxStamina: 100
